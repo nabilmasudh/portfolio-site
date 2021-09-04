@@ -1,0 +1,297 @@
+@import "partials/variable";
+@import "partials/common";
+@import "partials/nav";
+@import "partials/footer";
+
+
+#container{
+    width: 100%;
+    max-width: 100rem;
+    margin: 0 auto;
+
+    // home section styling
+
+    .home-section{
+        display: flex;
+        background: url("../img/image1.png") no-repeat center;
+        height: 100vh;
+        color: #fff;
+        min-height: 500px;
+        box-shadow: $box-shadow;
+        .home{
+            margin: auto auto auto 5rem;
+            .home-item-1{
+                font-size: 22px;
+            }
+            .home-item-2{
+                font-size: 35px;
+            }
+            .home-item-3{
+                font-size: 20px;
+            }
+        }
+    }
+    // about section styling
+
+    .about-section{
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            margin: 2rem;
+        }
+        .about{
+            display: flex;
+            flex-wrap: wrap;
+            .about-item{
+                flex-basis: 100%;
+                margin-bottom: 2rem;
+                .about-img{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 0.5rem;
+                }
+                img{
+                    width: 250px;
+                    height: 322px;
+                    object-fit: cover;
+                    border-radius: 0.5rem;
+                    box-shadow: $box-shadow;
+                }
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    // services section styling
+
+    .services-section{
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            margin: 2rem;
+        }
+        .services{
+            display: flex;
+            flex-wrap: wrap;
+            .services-item{
+                flex-basis: 100%;
+                padding: 2.5rem;
+                box-shadow: $box-shadow;
+                .icon{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 3rem;
+                    padding-bottom: 1rem;
+                }
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    //  skills section styling
+    .skills-section{
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        .skills{
+            display: flex;
+            flex-wrap: wrap;
+            .skills-item{
+                flex-basis: 100%;
+                padding: 2.5rem;
+                box-shadow: $box-shadow;
+                p{
+                    text-align: justify;
+                }
+                .bars{
+                    margin-bottom: 0.8rem;
+                    .info{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    .line{
+                        height: 0.6rem;
+                        width: 100%;
+                        position: relative;
+                        background: #f1f2f6;
+                        border-radius: 0.3rem;
+                        &::before{
+                        content: "";
+                        position: absolute;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        background: $clr-primary-8;
+                        border-radius: 0.3rem;
+                        }
+                    }
+                    .html::before{
+                        width: 90%;
+                    }
+                    .css::before{
+                        width: 80%;
+                    }
+                    .sass::before{
+                        width: 90%;
+                    }
+                    .js::before{
+                        width: 70%;
+                    }
+                    .react::before{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    // carousel section start 
+    .carousel-section{
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        .carousel{
+            display: flex;
+            flex-wrap: wrap;
+            .carousel-item{
+                flex-basis: 100%;
+                padding: 2.5rem;
+                box-shadow: $box-shadow;
+                .carousel-image{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 1rem;
+                    transition: 0.5s;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    border: 5px solid #dfe4ea;
+                    transform: 0.5;
+                }
+                h2{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    // contact section styling 
+    .contact-section{
+        margin: 5rem 0;
+        .title{
+            text-align: center;
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        .contact{
+            display: flex;
+            flex-wrap: wrap;
+            .contact-item{
+                flex-basis: 100%;
+                border: $border;
+                padding: 2.5rem;
+                box-shadow: $box-shadow;
+                h2{
+                    margin-bottom: 0.5rem;
+                }
+                .items{
+                    margin-bottom: 0.5rem;
+                    span{
+                        text-decoration: underline;
+                    }
+                }
+                label{
+                    display: block;
+                    margin-bottom: 0.3rem;
+                    font-size: 18px;
+                }
+                input{
+                    width: 100%;
+                    padding: 0.5rem;
+                    outline: none;
+                    font-size: 20px;
+                    border-radius: 0.4rem;
+                }
+                button{
+                    padding: 0.5rem 2rem;
+                    margin-top: 0.3rem;
+                    background: $bg-color;
+                    border-radius: 0.4rem;
+                    font-size: 20px;
+                    transition: 0.5s;
+                    cursor: pointer;
+                    &:hover{
+                        background: $clr-primary-8;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+
+// mobile sesponsive styling start 
+
+@media (min-width: 768px){
+    #container{
+        .about-section{
+            .about{
+                .about-item{
+                    flex-basis: 50%;
+                }
+            }
+        }
+        .services-section{
+            .services{
+                .services-item{
+                    flex-basis: 33.333%;
+                }
+            }
+        }
+        .skills-section{
+            .skills{
+                .skills-item{
+                    flex-basis: 50%;
+                }
+            }
+        }
+        .carousel-section{
+            .carousel{
+                .carousel-item{
+                    flex-basis: 33.3333%;
+                }
+            }
+        }
+        .contact-section{
+            .contact{
+                .contact-item{
+                    flex-basis: 50%;
+                }
+            }
+        }
+    }
+    
+    
+}

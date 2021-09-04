@@ -1,0 +1,54 @@
+// color variable start
+$bg-color: #ffffff;
+$text-color: #000;
+$hover-color: peachpuff;
+$hover-btn: #dbdce0;
+$transform-color: palegoldenrod;
+$border: 2px solid #ffffff;
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+// color variable start
+
+/*
+=============== 
+Variables
+===============
+*/
+/* dark shades of primary color*/
+$clr-primary-1: #073556;
+$clr-primary-2: #10507C;
+$clr-primary-3: #1B6DA8;
+$clr-primary-4: #2F88C7;
+/* primary/main color */
+$clr-primary-5: #4BA6E7;
+/* lighter shades of primary color */
+$clr-primary-6: #71C0F9;
+$clr-primary-7: #8BCAF6;
+$clr-primary-8: #A4D3F6;
+$clr-primary-9: #C5E4FA;
+$clr-primary-10: #E8F5FD;
+/* darkest grey - used for headings */
+$clr-grey-1: #112C45;
+$clr-grey-2: #253C55;
+$clr-grey-3: #33506B;
+$clr-grey-4: #4C6984;
+/* dark shades of primary color*/
+$clr-grey-5: #637F9A;
+$clr-grey-6: #849CB2;
+$clr-grey-7: #9FB3C9;
+$clr-grey-8: #BCCCDD;
+$clr-grey-9: #D8E0EA;
+$clr-grey-10: #F2F6FA;
+$clr-whit: #FFFFFF;
+/* grey used for paragraphs */
+$clr-red-dark: #BC2424;
+$clr-red-light: #EB6E6E;
+$clr-green-dark: #26BE33;
+$clr-green-light: #6CE576;
+$clr-black: #242424;
+$transition: 0.3s;
+$spacing: 0.1rem;
+$redius: 0.25rem;
+$light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+$dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+$max-width: 1170px;
+$fixed-width: 620px;
