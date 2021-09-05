@@ -7,19 +7,24 @@ import SkillsSection from './components/SkillsSection';
 import TeameSection from './components/TeameSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import {BrowserRouter as Router,Switch,Route,} from "react-router-dom";
  
  function App() {
    return (
-     <div>
+     <Router>
        <NavSection/>
-       <HomeSection/>
-       <AboutSection/>
-       <ServiceSection/>
-       <SkillsSection/>
-       <TeameSection/>
-       <ContactSection/>
-       <Footer/>
-     </div>
+       <Switch>
+          <Route>
+            <HomeSection/>
+            <AboutSection/>
+            <ServiceSection/>
+            <SkillsSection/>
+            <TeameSection/>
+            <ContactSection/>
+            <Footer/>
+          </Route>
+       </Switch>
+     </Router>
    )
  }
  

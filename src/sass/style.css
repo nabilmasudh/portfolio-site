@@ -9,7 +9,7 @@ Variables
 /* darkest grey - used for headings */
 /* dark shades of primary color*/
 /* grey used for paragraphs */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 *,
 ::after,
 ::before {
@@ -18,6 +18,10 @@ Variables
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Ubuntu";
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -166,8 +170,8 @@ nav .social-icons ul {
   background: #ffffff;
   padding: 1rem 0;
   font-size: 22px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #container {
@@ -180,12 +184,14 @@ nav .social-icons ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url("../img/image1.png") no-repeat center;
-  height: 100vh;
+  background: url("../img/image1.jpg") no-repeat center;
+  height: 100%;
   color: #fff;
-  min-height: 500px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 670px;
+  width: 98%;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 1%;
 }
 
 #container .home-section .home {
@@ -221,7 +227,7 @@ nav .social-icons ul {
 #container .about-section .about .about-item {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  margin-bottom: 2rem;
+  margin: 1%;
 }
 
 #container .about-section .about .about-item .about-img {
@@ -243,8 +249,8 @@ nav .social-icons ul {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.5rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 #container .about-section .about .about-item h2 {
@@ -273,8 +279,10 @@ nav .social-icons ul {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   padding: 2.5rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 1%;
+  border-radius: 0.3rem;
 }
 
 #container .services-section .services .services-item .icon {
@@ -317,8 +325,10 @@ nav .social-icons ul {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   padding: 2.5rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 1%;
+  border-radius: 0.3rem;
 }
 
 #container .skills-section .skills .skills-item p {
@@ -364,7 +374,7 @@ nav .social-icons ul {
 }
 
 #container .skills-section .skills .skills-item .bars .css::before {
-  width: 80%;
+  width: 90%;
 }
 
 #container .skills-section .skills .skills-item .bars .sass::before {
@@ -397,8 +407,10 @@ nav .social-icons ul {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   padding: 2.5rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 1%;
+  border-radius: 0.3rem;
 }
 
 #container .carousel-section .carousel .carousel-item .carousel-image {
@@ -457,12 +469,21 @@ nav .social-icons ul {
 }
 
 #container .contact-section .contact .contact-item {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  -ms-flex-preferred-size: 98%;
+      flex-basis: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 2px solid #ffffff;
-  padding: 2.5rem;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 1%;
+  border-radius: 0.3rem;
 }
 
 #container .contact-section .contact .contact-item h2 {
@@ -478,7 +499,6 @@ nav .social-icons ul {
 }
 
 #container .contact-section .contact .contact-item label {
-  display: block;
   margin-bottom: 0.3rem;
   font-size: 18px;
 }
@@ -492,10 +512,11 @@ nav .social-icons ul {
 }
 
 #container .contact-section .contact .contact-item button {
+  width: 20%;
   padding: 0.5rem 2rem;
-  margin-top: 0.3rem;
+  margin: 0.4rem auto;
   background: #ffffff;
-  border-radius: 0.4rem;
+  border-radius: 0.3rem;
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -508,24 +529,24 @@ nav .social-icons ul {
 
 @media (min-width: 768px) {
   #container .about-section .about .about-item {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
   }
   #container .services-section .services .services-item {
-    -ms-flex-preferred-size: 33.333%;
-        flex-basis: 33.333%;
+    -ms-flex-preferred-size: 31.333%;
+        flex-basis: 31.333%;
   }
   #container .skills-section .skills .skills-item {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
   }
   #container .carousel-section .carousel .carousel-item {
-    -ms-flex-preferred-size: 33.3333%;
-        flex-basis: 33.3333%;
+    -ms-flex-preferred-size: 31.3333%;
+        flex-basis: 31.3333%;
   }
   #container .contact-section .contact .contact-item {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 48%;
+        flex-basis: 48%;
   }
 }
 /*# sourceMappingURL=style.css.map */

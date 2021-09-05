@@ -7,10 +7,10 @@ const ServiceSection = () => {
             <section className="services-section" id="services">
                 <h2 className="title">my services</h2>
                 <div className="services">
-                    {services.map((service)=>{
-                        const {id, icon, title, text} = service;
+                    {services.map((service, index)=>{
+                        const {icon, title, text} = service;
                         return(
-                            <div className='services-item' key={id}>
+                            <div className='services-item' key={index}>
                                 <h2 className='icon'>{icon}</h2>
                                 <h2>{title}</h2>
                                 <p>{text}</p>

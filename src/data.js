@@ -135,12 +135,12 @@ export const contact = [
     {
         id: 2,
         title: 'Address :',
-        value: 'Bagerhat Khulna',
+        value: 'Bagerhat, Khulna',
     },
     {
         id: 2,
         title: 'Current Address :',
-        value: 'Dhaka Gazipur',
+        value: 'Dhaka, Gazipur',
     },
     {
         id: 2,

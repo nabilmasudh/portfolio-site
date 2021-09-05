@@ -12,20 +12,22 @@ const ContactSection = () => {
 
     const handleSubmit = (e) =>{
         e.preventDefault();
+        setPerson({firstName:'', lastName:'', email:''})
+        console.log(person)
     }
     
     return (
         <div id="container">
-            <section className="contact-section" id="contact">
+            <section className="contact-section">
                 <h2 className="title">contact me</h2>
-                <div class="contact">
+                <div className="contact">
                     
                     <div className="contact-item">
                         <h2>My address</h2>
-                        {contact.map((contact)=>{
-                            const {id, title, value} = contact;
+                        {contact.map((contact, index)=>{
+                            const {title, value} = contact;
                             return(
-                                <div className="name items" key={id}>
+                                <div className="name items" key={index}>
                                     <h3>{title}</h3>
                                     <span>{value}</span>
                                 </div>

@@ -19,7 +19,7 @@ const NavSection = () => {
         <nav>
             <div id='container' className='nav-center'>
                 <div className='nav-header'>
-                    <h2>protfolio.</h2>
+                    <h2>Porfolio.</h2>
                     <button className='nav-toggole'
                     onClick={()=> setShowLinks(!showLinks)}
                     >
@@ -28,10 +28,10 @@ const NavSection = () => {
                 </div>
                 <div className='links-container' ref={linksContainerRef}>
                     <ul ref={linksRef}>
-                        {links.map((link)=>{
-                            const {id, url, text} = link;
+                        {links.map((link, index)=>{
+                            const {url, text} = link;
                             return (
-                                <li key={id}>
+                                <li key={index}>
                                     <a href={url}>{text}</a>
                                 </li>
                             )
@@ -40,10 +40,10 @@ const NavSection = () => {
                 </div>
                 <div className='social-icons'>
                     <ul>
-                        {social.map((socialIcon)=>{
-                            const {id, url, icon} = socialIcon;
+                        {social.map((socialIcon, index)=>{
+                            const {url, icon} = socialIcon;
                             return(
-                                <li key={id}>
+                                <li key={index}>
                                     <a href={url}>{icon}</a>
                                 </li>
                             )

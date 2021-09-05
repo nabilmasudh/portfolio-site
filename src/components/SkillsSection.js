@@ -7,10 +7,10 @@ const SkillsSection = () => {
             <section className="skills-section" id="skills">
                 <h2 className="title">my skills</h2>
                 <div className="skills">
-                    {skills.map((skill) => {
-                        const { id, title, text } = skill;
+                    {skills.map((skill, index) => {
+                        const {title, text } = skill;
                         return (
-                            <div className='skills-item' key={id}>
+                            <div className='skills-item' key={index}>
                                   <h2>{title}</h2>
                                   <p>{text}</p>
                             </div>  
@@ -25,10 +25,10 @@ const SkillsSection = () => {
                             </div>
                             <div className="line html"></div>
                         </div>
-                        <div class="bars">
+                        <div className="bars">
                             <div className="info">
                                 <span>CSS</span>
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                             <div className="line css"></div>
                         </div>
